@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Rest Api',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        appBarTheme: AppBarTheme(color: Colors.white),
+        scaffoldBackgroundColor: Colors.white
       ),
       home: const PhotoGallery(),
     );
