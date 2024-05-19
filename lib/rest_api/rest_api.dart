@@ -8,7 +8,6 @@ class GetPhotos {
           .get(Uri.parse("https://jsonplaceholder.typicode.com/photos"));
       if (response.statusCode == 200) {
         String data = response.body;
-        print(data); // Print data to confirm it's fetched
         return photosFromJson(data);
       } else {
         throw Exception('Failed to fetch photos');

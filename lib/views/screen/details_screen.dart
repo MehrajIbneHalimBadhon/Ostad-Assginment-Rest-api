@@ -3,7 +3,7 @@ import '../../model/component.dart';
 
 class DetailsScreen extends StatelessWidget {
   final Photos details;
-  DetailsScreen({Key? key, required this.details}) : super(key: key);
+  const DetailsScreen({Key? key, required this.details}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
